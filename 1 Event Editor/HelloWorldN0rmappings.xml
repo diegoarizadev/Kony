@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="HelloWorldN0r" name="HelloWorldN0r">
+    <container isflex="false" displayname="Form" id="frmA" type="form">
+        <component displayname="TextBox2" id="txtboxa" type="textbox2"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmB" type="form"/>
+    <container isflex="false" displayname="Form" id="frmC" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
