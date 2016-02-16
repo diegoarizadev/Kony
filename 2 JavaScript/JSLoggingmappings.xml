@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="JSLogging" name="JSLogging">
+    <container isflex="false" displayname="Form" id="frmInicial" type="form"/>
+    <container isflex="false" displayname="Form" id="frmPrincipal" type="form"/>
+    <container isflex="false" displayname="Form" id="frmSolucion2" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
