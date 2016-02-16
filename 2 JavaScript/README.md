@@ -2,7 +2,7 @@
 
 
 # Solución 1. 
-Implementacion de Java Script, funciones individuales y .
+Implementacion de Java Script y funciones individuales.
 
 ![Alt text](https://lh3.googleusercontent.com/-pnnHoc78WVA/VsN3UWB09VI/AAAAAAAADzA/ret5bGQ8v6Y/s576-Ic42/Captura%252520de%252520pantalla%2525202016-02-16%252520a%252520las%2525201.42.45%252520p.m..png "1")
 
