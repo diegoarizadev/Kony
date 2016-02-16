@@ -1,4 +1,4 @@
-# Kony - Java Script
+# Kony - Java Script and Logging
 
 
 # Solución 1. 
