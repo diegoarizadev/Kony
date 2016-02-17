@@ -1,0 +1,34 @@
+kony.string.containsChars(inputstring, characterArray) Evalua si una cadena de caracteres contiene un caracter en especial, (inputstring) Cadena de texto a evaluar y (characterArray) Arreglo de caracteres a buscar. retona un booleano.
+
+kony.string.containsChars("adbcsADV", ["|","-"]);
+kony.string.containsChars("adbc|sADV", ["|","-"]);
+
+adbc|sADV => Cadena de texto a evaluar (inputstring)
+["|","-"] => Arreglo de caracteres a buscar (characterArray)
+
+kony.string.isNumeric(inputstring) Verifica si la cadena es de tipo numerica, retona verdadero o falso.
+kony.string.isNumeric(inputstring) Elimina los espacios de una cadena
+
+kony.string.isNumeric(inputstring) Verifica si la cadena de texto contiene la estructura basica de una direccion de correo, retorna un booleano.
+
+Phone API
+
+kony.phone.sendSMS(phoneNumber, text) Envia un sms y retorna un 0 "cero" si la ejecucion fue satisfactoria y -1 "menos uno" si la ejecucion no fue satisfactoria.
+kony.phone.openEmail(to, cc, bcc, sub, msgbody, boolean) Envia un correo electronico.
+
+
+kony.ui.Alert({basicconfig},{deviceconfig}) Muestra un Alert en el dispositivo.
+
+Ejemplo :
+
+  kony.ui.Alert({message      : "Mensaje de alerta desde JS",
+                 alertType    : constants.ALERT_TYPE_CONFIRMATION,
+                 alertTitle   : "Alerta desde JS",
+                 yesLabel     : "Si",
+                 noLabel      : "No",
+                 alertIcon    : null,
+                 alertHandler : alertCallback}, {});
+
+
+koni.location.getCurrentPosition(successcallback, errorcallback, positionoptions)
+
