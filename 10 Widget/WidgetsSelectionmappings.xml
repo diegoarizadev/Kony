@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="WidgetsSelection" name="WidgetsSelection">
+    <container isflex="false" displayname="Form" id="frmWidget" type="form">
+        <component displayname="ListBox" id="lstbInicial" type="listbox"/>
+        <component displayname="ListBox" id="lstbSecundario" type="listbox"/>
+    </container>
+    <container isflex="false" displayname="Form" id="frmWidget2" type="form"/>
+    <container isflex="false" displayname="Form" id="frmWidget2Detalle" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
