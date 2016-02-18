@@ -1,0 +1,27 @@
+<properties>
+    <attributes name="project.type" value="js"/>
+    <attributes name="appidkey" value="WebService"/>
+    <attributes name="mwaddrkey" value="192.168.0.23"/>
+    <attributes name="iospopuptransitioncorrection" value="true"/>
+    <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
+    <attributes name="vendornamekey" value="KonyLabs"/>
+    <attributes name="createdgaversion" value="6.5.0"/>
+    <attributes name="iostextboxpaddingcorrection" value="true"/>
+    <attributes name="win6xj2meonlysupported" value="false"/>
+    <attributes name="iosrespectimagesizecorrection" value="true"/>
+    <attributes name="ioscheckboxcorrection" value="true"/>
+    <attributes name="apppackagekey" value="com.orgname.WebService"/>
+    <attributes name="winmangotiletitlekey" value="WebService"/>
+    <attributes name="andtargetsdkkey" value="2.3.3"/>
+    <attributes name="build" value="debug"/>
+    <attributes name="iphonebundleidentifierkey" value="com.kony.WebService"/>
+    <attributes name="appnamekey" value="WebService"/>
+    <attributes name="marginsincludedinwidgetcontainerweight" value="true"/>
+    <attributes name="currentgaversion" value="6.5.1.GA_v201507231955"/>
+    <attributes name="mwportkey" value="80"/>
+    <attributes name="appversionkey" value="1.0.0"/>
+    <attributes name="mwhttpsportkey" value="443"/>
+    <attributes name="APPLICATION_THEME" value="default"/>
+    <attributes name="SELECTED_THEME" value="default"/>
+    <attributes name="startupformkey" value="frmPrincipal"/>
+</properties>
