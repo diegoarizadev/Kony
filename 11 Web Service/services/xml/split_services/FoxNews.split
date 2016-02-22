@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>news feeds</group>
+        <httpmethod>GET</httpmethod>
+        <id>FoxNews</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue>deportes</defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>newstype</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>request</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>world</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?&gt;&lt;?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?&gt;&lt;rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;FOX News&lt;/title&gt;
+      &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;description&gt;&lt;![CDATA[FOXNews.com - Breaking news and video. Latest Current News: U.S., World, Entertainment, Health, Business, Technology, Politics, Sports.]]&gt;&lt;/description&gt;
+      &lt;image&gt;
+         &lt;url&gt;http://tools.foxnews.com/sites/tools.foxnews.com/files/images/fox-news-logo.png&lt;/url&gt;
+         &lt;title&gt;FOX News&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;/image&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.foxnews.com/foxnews/world" rel="self" type="application/rss+xml"/&gt;
+      &lt;feedburner:info uri="foxnews/world"/&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/isis-reportedly-beheads-iraqi-teen-for-listening-to-pop-music.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/gHffOeRrsT4/isis-reportedly-beheads-iraqi-teen-for-listening-to-pop-music.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://www.foxnews.com/content/dam/fox-news/images/2016/02/18/rtr3tjyf.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/rtr3tjyf.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/rtr3tjyf.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;c2c38fd8-a471-409d-8845-257ed98ae606&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism/isis&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM/isis&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;ISIS reportedly beheads Iraqi teen for listening to pop music&lt;/title&gt;
+         &lt;description&gt;ISIS publicly beheaded an Iraqi teenager on Tuesday for listening to western pop music, the ARA news agency reports.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/gHffOeRrsT4" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 19:02:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/isis-reportedly-beheads-iraqi-teen-for-listening-to-pop-music.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/scientists-revise-study-on-eurasian-migration-to-africa.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/hXW4jTMGMVg/scientists-revise-study-on-eurasian-migration-to-africa.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;f59d3ab7-4a6b-47f0-b6b9-665d21e7bbfe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Scientists revise study on Eurasian migration to Africa&lt;/title&gt;
+         &lt;description&gt;Scientists say they are revising their claim that Eurasian farmers who migrated to Africa some 3,000 years ago have left their genetic mark in the furthest corners of the continent.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/hXW4jTMGMVg" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 18:16:07 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/scientists-revise-study-on-eurasian-migration-to-africa.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/egypt-buries-veteran-diplomat-boutros-ghali-with-top-honors.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/buhDP1jCuEc/egypt-buries-veteran-diplomat-boutros-ghali-with-top-honors.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;a05ce508-668d-4404-a2d1-179bd5312793&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/religion&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/RELIGION&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Egypt buries veteran diplomat Boutros-Ghali with top honors&lt;/title&gt;
+         &lt;description&gt;Egypt's president has led the funeral procession for the country's veteran diplomat Boutros Boutros-Ghali, who was laid to rest with top state honors.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/buhDP1jCuEc" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 18:15:07 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/egypt-buries-veteran-diplomat-boutros-ghali-with-top-honors.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/palestinians-kill-israeli-civilian-in-west-bank-store.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/qC3UPFOzYuY/palestinians-kill-israeli-civilian-in-west-bank-store.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;278fc5ab-a042-4534-b018-1020103561a3&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Palestinians kill Israeli civilian in West Bank store&lt;/title&gt;
+         &lt;description&gt;Two knife-wielding Palestinians fatally stabbed an Israeli civilian on Thursday and seriously wounded another at a supermarket in the West Bank before they were shot and wounded by an Israeli bystander, the military said.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/qC3UPFOzYuY" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 18:06:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/palestinians-kill-israeli-civilian-in-west-bank-store.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/moscow-airport-chainman-detained-in-connection-with-bombing.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/TaAYToHVsYo/moscow-airport-chainman-detained-in-connection-with-bombing.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;6be817d0-ab34-408e-ae1d-7dec01da5fbf&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/global-economy&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/GLOBAL ECONOMY&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Moscow airport chairman detained in connection with bombing&lt;/title&gt;
+         &lt;description&gt;Russia's top investigative body says the chairman of the company that runs the country's busiest airport, Domodedovo, has been detained in connection with a suicide bombing there five years ago that killed 37 people.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/TaAYToHVsYo" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 17:45:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/moscow-airport-chainman-detained-in-connection-with-bombing.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/un-ask-for-18-billion-to-assist-people-in-yemen.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/zTShOyipqiI/un-ask-for-18-billion-to-assist-people-in-yemen.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;d5ed0b88-4fa2-4771-995e-e6c41a368a3f&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;UN ask for $1.8 billion to assist people in Yemen&lt;/title&gt;
+         &lt;description&gt;The United Nations humanitarian office says it needs $1.8 billion dollars to provide critical and life-saving assistance to 13.6 million people who have been affected by the escalating conflict in Yemen.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/zTShOyipqiI" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 17:00:14 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/un-ask-for-18-billion-to-assist-people-in-yemen.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/kurdish-forces-say-islamic-state-group-used-chemical-shells.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/CROcy2jzWp4/kurdish-forces-say-islamic-state-group-used-chemical-shells.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://media2.foxnews.com/BrightCove/694940094001/2016/02/16/694940094001_4758224711001_0f147adb-c6ca-45c9-a4b9-506620ac22f5.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/02/16/60/60/694940094001_4758224711001_0f147adb-c6ca-45c9-a4b9-506620ac22f5.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/02/16/60/60/694940094001_4758224711001_0f147adb-c6ca-45c9-a4b9-506620ac22f5.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;329401d8-d90a-4ac8-bdbc-4184d0b08883&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism/isis&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM/isis&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;ISIS deployed chemical shells in Iraq, Kurdish officer claims&lt;/title&gt;
+         &lt;description&gt;A Kurdish military officer and a medical official say Islamic State militants Friday fired mortar shells believed to have been filled with a chemical substance, possibly chlorine, at Kurdish troops close to the Iraqi town of Sinjar, wounding 30 fighters.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/CROcy2jzWp4" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:45:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/kurdish-forces-say-islamic-state-group-used-chemical-shells.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/drunk-knife-wielding-monkey-reportedly-attacks-bar-patrons.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/sv5WyZa4S8I/drunk-knife-wielding-monkey-reportedly-attacks-bar-patrons.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://media2.foxnews.com/BrightCove/694940094001/2016/02/17/694940094001_4760166984001_9324b75d-4156-4427-bdb1-086d0f30904c.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/02/17/60/60/694940094001_4760166984001_9324b75d-4156-4427-bdb1-086d0f30904c.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/02/17/60/60/694940094001_4760166984001_9324b75d-4156-4427-bdb1-086d0f30904c.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;9f5fb7ba-ea72-4459-a84e-46362df26567&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/odd-news&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/Odd News&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Drunk, knife-wielding monkey reportedly attacks bar patrons&lt;/title&gt;
+         &lt;description&gt;This monkey means business.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/sv5WyZa4S8I" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:45:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/drunk-knife-wielding-monkey-reportedly-attacks-bar-patrons.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/mind-gap-in-uk-eu-talks-devil-is-in-details.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/Afq4xJ_wh-o/mind-gap-in-uk-eu-talks-devil-is-in-details.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;bc6d1187-d953-4d4b-b02c-ee6730daf20f&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Mind the gap: In UK-EU talks, the devil is in the details&lt;/title&gt;
+         &lt;description&gt;On paper, there's not much of a gap between Britain and its 27 European Union partners over the changes the U.K. seeks to its relationship with the bloc.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/Afq4xJ_wh-o" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:30:27 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/mind-gap-in-uk-eu-talks-devil-is-in-details.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/reports-say-syrian-national-behind-deadly-ankara-car-bomb-attack.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/9JuAc7QU4Pk/reports-say-syrian-national-behind-deadly-ankara-car-bomb-attack.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://media2.foxnews.com/BrightCove/694940094001/2016/02/17/694940094001_4761180365001_aa766af7-6604-4cd1-a294-af8cf35a915d.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/02/17/60/60/694940094001_4761180365001_aa766af7-6604-4cd1-a294-af8cf35a915d.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/02/17/60/60/694940094001_4761180365001_aa766af7-6604-4cd1-a294-af8cf35a915d.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;10b6da88-df01-4054-8d41-eebca882eb45&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Turkey points blame at Kurdish militants after terror attack targeting military&lt;/title&gt;
+         &lt;description&gt;Turkey blamed Kurdish militant groups at home and in neighboring Syria on Thursday for a deadly suicide bombing in Ankara and vowed strong retaliation for the attack -- a development that threatens to further complicate the escalating Syrian civil war.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/9JuAc7QU4Pk" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:30:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/reports-say-syrian-national-behind-deadly-ankara-car-bomb-attack.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/pope-on-trump-anyone-who-wants-border-walls-isnt-christian.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/SqqgQ1Ime4M/pope-on-trump-anyone-who-wants-border-walls-isnt-christian.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;b4b8b6f5-af3f-44a6-b34b-7a9a8708ed37&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/us&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/US&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Pope on Trump: Anyone who wants border walls isn't Christian&lt;/title&gt;
+         &lt;description&gt;Asked about Donald Trump's views on immigration, Pope Francis says anyone who wants to build a wall along the U.S.-Mexican border isn't Christian.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/SqqgQ1Ime4M" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:15:13 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/pope-on-trump-anyone-who-wants-border-walls-isnt-christian.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/patent-scandal-secret-probe-top-un-official-completed.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/pBlrLBFoD8w/patent-scandal-secret-probe-top-un-official-completed.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://www.foxnews.com/content/dam/fox-news/images/2016/02/18/gurry218.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/gurry218.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/gurry218.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;49f356b6-b8b8-4c8a-b5f7-f88c068bc3c9&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/politics/foreign-policy/state-department&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/united-nations&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/POLITICS/FOREIGN POLICY/State Department&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/UNITED NATIONS&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Patent scandal: Secret probe of top UN official completed&lt;/title&gt;
+         &lt;description&gt;EXCLUSIVE: United Nations investigators have concluded a long and secretive probe into charges that the head of the U.N.’s World Intellectual Property Organization ordered illegal break-ins of the offices of his own staffers, who he suspected had written anonymous letters against him.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/pBlrLBFoD8w" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;dc:creator&gt;George Russell&lt;/dc:creator&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:15:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/dc.creator"&gt;George Russell&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/patent-scandal-secret-probe-top-un-official-completed.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/palestinian-leader-gives-wife-beating-tips-on-gaza-tv.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/H40xoGZZFOw/palestinian-leader-gives-wife-beating-tips-on-gaza-tv.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://www.foxnews.com/content/dam/fox-news/images/2016/02/18/muftipic.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/muftipic.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/muftipic.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;b5830366-db65-466c-abdd-472dfaad2976&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/religion&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/religion/islam&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/RELIGION&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/RELIGION/Islam&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Palestinian leader gives wife-beating tips on Gaza TV&lt;/title&gt;
+         &lt;description&gt;A top spiritual leader in the Palestinian territory of Gaza told a television audience last week how and when men can beat their wives, advising not to hit them in a way that “makes the face ugly.”&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/H40xoGZZFOw" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 16:02:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/palestinian-leader-gives-wife-beating-tips-on-gaza-tv.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/terror-search-in-belgium-finds-video-linked-to-nuclear-official.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/yzJF7FxDyTA/terror-search-in-belgium-finds-video-linked-to-nuclear-official.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://media2.foxnews.com/BrightCove/694940094001/2016/01/08/694940094001_4691598801001_e50c9714-6d33-49ab-90f3-f0ad5649ac37.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/01/08/60/60/694940094001_4691598801001_e50c9714-6d33-49ab-90f3-f0ad5649ac37.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/media2.foxnews.com/BrightCove/694940094001/2016/01/08/60/60/694940094001_4691598801001_e50c9714-6d33-49ab-90f3-f0ad5649ac37.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;f717ee6f-44e0-4cb1-bd09-6411c0196528&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism/nuclear-terror&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/global-economy&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM/Nuclear Terror&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/GLOBAL ECONOMY&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Terror search in Belgium finds video linked to nuclear official&lt;/title&gt;
+         &lt;description&gt;Belgian authorities say that searches in the wake of last year's deadly attacks in Paris have uncovered video linked to a person working in Belgium's nuclear industry.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/yzJF7FxDyTA" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 15:30:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/terror-search-in-belgium-finds-video-linked-to-nuclear-official.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/brazil-central-bank-says-economy-shrank-408-pct-in-2015.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/LDeXifa5d3Y/brazil-central-bank-says-economy-shrank-408-pct-in-2015.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;9e9d7b50-e19e-4218-a138-fc6fc1ea9fa9&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Brazil's central bank says economy shrank 4.08 pct in 2015&lt;/title&gt;
+         &lt;description&gt;Brazil's central bank says the economy contracted 4.08 percent in 2015, the worst performance since the indicator was created in 2003.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/LDeXifa5d3Y" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 15:15:14 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/brazil-central-bank-says-economy-shrank-408-pct-in-2015.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/social-media-shut-down-in-uganda-during-chaotic-presidential-election.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/PJ8kXnJVLAc/social-media-shut-down-in-uganda-during-chaotic-presidential-election.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://www.foxnews.com/content/dam/fox-news/images/2016/02/18/uganda-elections.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/uganda-elections.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/18/60/60/uganda-elections.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;80a724e8-2b3d-4913-9614-0656e57c6f3d&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Uganda presidential candidate arrested during chaotic election, aide says&lt;/title&gt;
+         &lt;description&gt;A Ugandan presidential candidate who called the country’s leader a dictator was arrested during a chaotic election day Thursday following an apparent shutdown of social media sites and fights at polling stations, an aide says.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/PJ8kXnJVLAc" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 14:47:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/social-media-shut-down-in-uganda-during-chaotic-presidential-election.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/another-faction-quits-ukraine-governing-coalition.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/QDbr2hDjohU/another-faction-quits-ukraine-governing-coalition.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;66e7b7b8-a5ff-4c1d-8fd3-38cdd2a857c8&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Another faction quits Ukraine's governing coalition&lt;/title&gt;
+         &lt;description&gt;Ukraine sank deeper into political turmoil Thursday as the governing coalition lost its majority in parliament after a second faction bailed out.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/QDbr2hDjohU" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 14:15:14 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/another-faction-quits-ukraine-governing-coalition.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/venezuela-takes-tiny-steps-toward-fixing-economy.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/oWSJqVBILQ8/venezuela-takes-tiny-steps-toward-fixing-economy.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;9c9cab3e-ca16-469b-bcbe-6bdc6ec464f7&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Venezuela takes tiny steps toward fixing economy&lt;/title&gt;
+         &lt;description&gt;Venezuela's President Nicolas Maduro has announced long-awaited economic reforms, but analysts say they'll barely have any effect in rescuing the economy.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/oWSJqVBILQ8" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 14:15:14 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/venezuela-takes-tiny-steps-toward-fixing-economy.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/swedish-organization-raid-on-afghan-health-clinic-kills-3.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/Nzo17kddYwA/swedish-organization-raid-on-afghan-health-clinic-kills-3.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;3465e729-f142-4aab-a9f5-d61d72bb1ed1&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/asia&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Asia&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Swedish organization: Raid on Afghan health clinic kills 3&lt;/title&gt;
+         &lt;description&gt;A Swedish non-government organization says two patients and a caretaker were killed during an overnight raid by Afghan forces on one of its clinics in Wardak province.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/Nzo17kddYwA" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 14:00:15 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/swedish-organization-raid-on-afghan-health-clinic-kills-3.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/18/eu-warns-austria-that-plan-to-cap-asylum-seekers-is-unlawful.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/dG41WOKqmr0/eu-warns-austria-that-plan-to-cap-asylum-seekers-is-unlawful.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;cde134c9-ae09-40c4-bf9a-fe76cfd4ec88&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;EU warns Austria that plan to cap asylum seekers is unlawful&lt;/title&gt;
+         &lt;description&gt;The EU's top migration official says an Austrian plan to cap asylum-seeker numbers is unlawful.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/dG41WOKqmr0" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Thu, 18 Feb 2016 13:45:16 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/18/eu-warns-austria-that-plan-to-cap-asylum-seekers-is-unlawful.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+</outtemplate>
+        <outTemplateHeader>Accept-Ranges: none
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0
+Server: GSE
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+Last-Modified: Thu, 18 Feb 2016 19:27:37 GMT
+Expires: Thu, 18 Feb 2016 19:27:46 GMT
+X-XSS-Protection: 1; mode=block
+Date: Thu, 18 Feb 2016 19:27:46 GMT
+Content-Type: text/xml; charset=UTF-8
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>articulo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//channel</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>titulo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>item/title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>articulo</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>descripcion</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>item/description</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>articulo</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue>EEE dd MM yyyy</formatvalue>
+            <id>fecha</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>item/pubDate</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>articulo</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://feeds.foxnews.com/foxnews/world</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

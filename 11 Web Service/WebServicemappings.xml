@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="WebService" name="WebService">
+    <container isflex="false" displayname="Form" id="frmDetalle" type="form"/>
+    <container isflex="false" displayname="Form" id="frmPrincipal" type="form">
+        <component displayname="ListBox" id="lstSecciones" type="listbox"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>
