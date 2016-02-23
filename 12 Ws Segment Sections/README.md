@@ -1,7 +1,7 @@
 # Kony - Web Service y Segment sections
 
-#Se utilizo el web service implementado en el taller 
-Taller No. 10 (wweb Service) = https://github.com/n0rfen/Kony/tree/master/10%20Widget
+#Se utilizo el web service implementado en el taller No. 10
+Taller No. 10 (Web Service) = https://github.com/n0rfen/Kony/tree/master/10%20Widget
 
 
 Inicio aplicación.
