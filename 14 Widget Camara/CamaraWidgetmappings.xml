@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="CamaraWidget" name="CamaraWidget">
+    <container isflex="false" displayname="Form" id="frmOverlay" type="form"/>
+    <container isflex="false" displayname="Form" id="frmPrincipal" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
