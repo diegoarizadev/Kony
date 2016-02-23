@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="WSegmentSections" name="WSegmentSections">
+    <container isflex="false" displayname="Form" id="frmPrincipal" type="form">
+        <component displayname="ListBox" id="lstCategoria1" type="listbox"/>
+        <component displayname="ListBox" id="lstCategoria2" type="listbox"/>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

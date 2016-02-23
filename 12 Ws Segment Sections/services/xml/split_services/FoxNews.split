@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <includecookies></includecookies>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>news feeds</group>
+        <httpmethod></httpmethod>
+        <id>FoxNews</id>
+        <identityProvider></identityProvider>
+        <identityProviderName></identityProviderName>
+        <ignoreProxy>false</ignoreProxy>
+        <inparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>newstype</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source></source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue>world</testvalue>
+            <value></value>
+        </inparam>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?&gt;&lt;?xml-stylesheet type="text/css" media="screen" href="http://feeds.foxnews.com/~d/styles/itemcontent.css"?&gt;&lt;rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"&gt;
+   &lt;channel&gt;
+      &lt;title&gt;FOX News&lt;/title&gt;
+      &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;description&gt;&lt;![CDATA[FOXNews.com - Breaking news and video. Latest Current News: U.S., World, Entertainment, Health, Business, Technology, Politics, Sports.]]&gt;&lt;/description&gt;
+      &lt;image&gt;
+         &lt;url&gt;http://tools.foxnews.com/sites/tools.foxnews.com/files/images/fox-news-logo.png&lt;/url&gt;
+         &lt;title&gt;FOX News&lt;/title&gt;
+         &lt;link&gt;http://www.foxnews.com/&lt;/link&gt;
+      &lt;/image&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://feeds.foxnews.com/foxnews/world" rel="self" type="application/rss+xml"/&gt;
+      &lt;feedburner:info uri="foxnews/world"/&gt;
+      &lt;atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" href="http://pubsubhubbub.appspot.com/" rel="hub"/&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/panama-to-airlift-500-cuban-migrants-stranded-on-way-to-us.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/uWu8jkLVyfs/panama-to-airlift-500-cuban-migrants-stranded-on-way-to-us.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;3cf19935-8f99-44aa-9435-aef175d10799&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/us&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/US&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Panama to airlift 500 Cuban migrants stranded on way to US&lt;/title&gt;
+         &lt;description&gt;Panama is planning to fly to Mexico this week some 500 Cuban migrants stranded on their way to the United States.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/uWu8jkLVyfs" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 21:15:18 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/panama-to-airlift-500-cuban-migrants-stranded-on-way-to-us.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/mining-giant-bhp-billiton-posts-57-billion-half-year-loss.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/BwDi3AsR6bU/mining-giant-bhp-billiton-posts-57-billion-half-year-loss.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;5a673891-ab19-4314-83ad-d6be5a66c089&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/australia&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/pacific&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Australia&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Pacific&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Mining giant BHP Billiton posts $5.7 billion half year loss&lt;/title&gt;
+         &lt;description&gt;Mining giant BHP Billiton has reported a half year net loss of $5.67 billion and warned that the current period of weak commodity prices will be prolonged.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/BwDi3AsR6bU" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 21:15:18 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/mining-giant-bhp-billiton-posts-57-billion-half-year-loss.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/un-says-21-dead-over-8000-displaced-in-fiji.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/vLvFtTYnK0g/un-says-21-dead-over-8000-displaced-in-fiji.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;3e7bd306-107a-4ff8-b3dd-22ba8066baac&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/pacific&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Pacific&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;UN says 21 dead, over 8,000 displaced in Fiji&lt;/title&gt;
+         &lt;description&gt;A U.N.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/vLvFtTYnK0g" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 21:00:19 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/un-says-21-dead-over-8000-displaced-in-fiji.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/colombia-hastens-search-for-28000-bodies-in-unmarked-graves.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/f7YFTrKtAm0/colombia-hastens-search-for-28000-bodies-in-unmarked-graves.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;b2c5bb25-f94e-471f-8149-46bf73fa7228&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Colombia hastens search for 28,000 bodies in unmarked graves&lt;/title&gt;
+         &lt;description&gt;Colombia is intensifying efforts to identify some 28,000 victims of the country's long-running conflict whose bodies were dumped in unmarked graves.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/f7YFTrKtAm0" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 21:00:19 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/colombia-hastens-search-for-28000-bodies-in-unmarked-graves.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/experts-identify-2-other-possible-syria-chemical-attacks.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/wGwMIp63l2c/experts-identify-2-other-possible-syria-chemical-attacks.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;50fe5f15-8070-4e0d-96db-6dcafd941b9f&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Experts identify 2 other possible Syria chemical attacks&lt;/title&gt;
+         &lt;description&gt;The international body charged with establishing who is responsible for chemical attacks in Syria says it has identified seven potential sites for investigation, which it hopes to begin next month.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/wGwMIp63l2c" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 19:30:19 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/experts-identify-2-other-possible-syria-chemical-attacks.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/thwarted-helicopter-hijacking-linked-with-greek-militants.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/YbEuO_h9pIc/thwarted-helicopter-hijacking-linked-with-greek-militants.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;9e29d8fa-91f6-43a7-87ca-0f51afa82134&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/global-economy&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/GLOBAL ECONOMY&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Thwarted helicopter hijacking linked with Greek militants&lt;/title&gt;
+         &lt;description&gt;Greece's anti-terrorism squad is investigating the attempted hijacking of a helicopter by a woman armed with a gun that police have linked to a domestic militant anarchist group.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/YbEuO_h9pIc" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 18:45:15 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/thwarted-helicopter-hijacking-linked-with-greek-militants.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/tunisia-probes-deaths-in-us-airstrike-in-libya.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/bZyJ2l47yd8/tunisia-probes-deaths-in-us-airstrike-in-libya.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;64315b90-43cc-49f2-b684-27d499819cd8&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Tunisia probes deaths in US airstrike in Libya&lt;/title&gt;
+         &lt;description&gt;A spokesman for a Tunisian court says that authorities have authorized an investigation into the deaths of Tunisians during last week's U.S. airstrike on an Islamic State group training camp in neighboring Libya.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/bZyJ2l47yd8" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 18:19:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/tunisia-probes-deaths-in-us-airstrike-in-libya.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/syria-violence-and-refugee-plight-worsening-despite-diplomatic-deals.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/xwkT-4aAce0/syria-violence-and-refugee-plight-worsening-despite-diplomatic-deals.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://www.foxnews.com/content/dam/fox-news/images/2016/02/22/syriabomb222.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/22/60/60/syriabomb222.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/22/60/60/syriabomb222.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;957702a0-c690-40e1-bbc4-576fb57862dc&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/politics/foreign-policy/human-rights&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/united-nations/human-rights&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/POLITICS/FOREIGN POLICY/Human Rights&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/UNITED NATIONS/Human Rights&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Syria: Violence and refugee plight worsening despite diplomatic deals&lt;/title&gt;
+         &lt;description&gt;While the U.S. and Russia have announced “preliminary agreement” on the “cessation of hostilities” in Syria, humanitarian workers warn that the violence on the ground remains unchecked, and the situation is worsening for tens of thousands of additional Syrians being forced to flee as a result.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/xwkT-4aAce0" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;dc:creator&gt;George Russell&lt;/dc:creator&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 17:33:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/dc.creator"&gt;George Russell&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/syria-violence-and-refugee-plight-worsening-despite-diplomatic-deals.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/death-last-treblinka-survivor-points-to-post-witness-era.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/CDgCNhSbx1o/death-last-treblinka-survivor-points-to-post-witness-era.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;6490efe9-9d81-4ba2-9481-aaf5a7c632e0&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/religion&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/RELIGION&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Death of last Treblinka survivor points to post-witness era&lt;/title&gt;
+         &lt;description&gt;The death of 93-year-old Holocaust survivor Samuel Willenberg marks the passing of the last link to the notorious death camp of Treblinka, perhaps the most vivid example of Nazi Germany's attempt to destroy European Jewry.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/CDgCNhSbx1o" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 17:30:15 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/death-last-treblinka-survivor-points-to-post-witness-era.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/libyan-troops-claim-major-gains-in-war-torn-benghazi.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/dgqWoX_oO9o/libyan-troops-claim-major-gains-in-war-torn-benghazi.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;1d8dd69d-4e54-45b1-9912-7554be339901&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Libyan troops claim major gains in war-torn Benghazi&lt;/title&gt;
+         &lt;description&gt;A Libyan military spokesman says troops loyal to the internationally-backed government have made major advances against Islamic extremists and cleared a strategic port in the eastern city of Benghazi.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/dgqWoX_oO9o" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 17:15:17 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/libyan-troops-claim-major-gains-in-war-torn-benghazi.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/tunisia-probes-deaths-countryman-in-us-airstrike-in-libya.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/_fisE_zViqU/tunisia-probes-deaths-countryman-in-us-airstrike-in-libya.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;cee38671-ae7d-4a0a-8483-93d7250bb493&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Tunisia probes deaths of countryman in US airstrike in Libya&lt;/title&gt;
+         &lt;description&gt;A spokesman for a Tunisian court says that authorities have authorized an investigation into the deaths of Tunisians during last week's U.S. airstrike on an Islamic State group training camp in neighboring Libya.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/_fisE_zViqU" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 17:15:17 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/tunisia-probes-deaths-countryman-in-us-airstrike-in-libya.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/assange-lawyers-request-overturn-arrest-warrant.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/mtD216yMrFY/assange-lawyers-request-overturn-arrest-warrant.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;bb02facf-a21a-4e93-a271-94cf8d69d201&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Americas&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Assange lawyers request overturn of arrest warrant&lt;/title&gt;
+         &lt;description&gt;A Swedish court says Julian Assange's lawyers have requested an overturn of his arrest warrant, in light of a UN panel finding that the WikiLeaks founder should be freed.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/mtD216yMrFY" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 17:00:13 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/assange-lawyers-request-overturn-arrest-warrant.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/congo-says-15-kids-to-be-united-with-adoptive-parents.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/uf7L5EY6Mp4/congo-says-15-kids-to-be-united-with-adoptive-parents.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;79a5d360-07e4-4c14-acaa-ada046d83cc2&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Congo says 159 kids to be united with adoptive parents&lt;/title&gt;
+         &lt;description&gt;Congo's ambassador to the United States says 159 children will be united with their adoptive parents after the government agreed to grant long-stalled permits to the children who've been stuck in the African country for more than two years despite having been adopted by international families.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/uf7L5EY6Mp4" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 17:00:13 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/congo-says-15-kids-to-be-united-with-adoptive-parents.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/more-than-5000-tons-ammo-sent-to-us-army-depot-in-germany.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/DaSnW8GCwOM/more-than-5000-tons-ammo-sent-to-us-army-depot-in-germany.html&lt;/link&gt;
+         &lt;media:group&gt;
+            &lt;media:content isDefault="true" medium="image" url="http://www.foxnews.com/content/dam/fox-news/images/2016/02/22/army-shipping.jpg"/&gt;
+            &lt;media:content height="60" medium="image" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/22/60/60/army-shipping.jpg" width="60"/&gt;
+         &lt;/media:group&gt;
+         &lt;media:thumbnail height="60" url="http://a57.foxnews.com/www.foxnews.com/content/dam/fox-news/images/2016/02/22/60/60/army-shipping.jpg" width="60"/&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;e9853b30-1372-4a96-b60d-14f645157665&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/conflicts&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/us/military&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/CONFLICTS&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/US/MILITARY&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;More than 5,000 tons of ammo sent to US Army depot in Germany&lt;/title&gt;
+         &lt;description&gt;The U.S. Army’s largest Europe-bound ammo shipment in a decade has arrived at a depot in Germany as its forces ramp up their missions in response to Russia’s military actions.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/DaSnW8GCwOM" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 16:54:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/more-than-5000-tons-ammo-sent-to-us-army-depot-in-germany.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/nigerian-navy-rescues-hijacked-oil-tanker-1-pirate-killed.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/BJo8jv896bs/nigerian-navy-rescues-hijacked-oil-tanker-1-pirate-killed.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;6b8ba9da-34bb-4ae4-b1fc-c224753fda33&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/asia&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Asia&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Nigerian navy rescues hijacked oil tanker, 1 pirate killed&lt;/title&gt;
+         &lt;description&gt;The Nigerian navy says it has rescued a hijacked oil tanker in a dramatic night operation in which one pirate was killed.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/BJo8jv896bs" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 16:01:14 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/nigerian-navy-rescues-hijacked-oil-tanker-1-pirate-killed.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/us-trains-west-africans-to-respond-to-extremist-threats.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/6rvre3C0S94/us-trains-west-africans-to-respond-to-extremist-threats.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;0b9af19d-8e50-49e7-866d-47de51e0f833&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/global-economy&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/terrorism&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/GLOBAL ECONOMY&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/TERRORISM&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;US trains West Africans to respond to extremist threats&lt;/title&gt;
+         &lt;description&gt;Deep in the desert a loud explosion blows the roof off a Chevy Suburban, scattering car parts amid flames and black smoke.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/6rvre3C0S94" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 16:00:16 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/us-trains-west-africans-to-respond-to-extremist-threats.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/lebanon-pm-to-visit-gulf-after-saudi-aid-cutoff.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/ZsVi6IZiVGU/lebanon-pm-to-visit-gulf-after-saudi-aid-cutoff.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;c7c8e5d1-1607-4099-8fa6-d2ed4bd969cc&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/middle-east&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Middle East&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Lebanon PM to visit Gulf after Saudi aid cutoff&lt;/title&gt;
+         &lt;description&gt;Lebanon's Prime Minister says he will head a ministerial delegation to visit Gulf states in the near future after Saudi Arabia halted security assistance deals worth $4 billion.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/ZsVi6IZiVGU" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 15:45:22 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/lebanon-pm-to-visit-gulf-after-saudi-aid-cutoff.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/zimbabwean-government-to-control-country-diamond-mining.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/DHxlw0lIvbk/zimbabwean-government-to-control-country-diamond-mining.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;faa56cd8-e4e3-479f-b544-4d648bc57583&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;Zimbabwean government to control country's diamond mining&lt;/title&gt;
+         &lt;description&gt;Zimbabwe's mining minister said the government will now control all mining in the diamond-rich Marange area, after operators were ordered to halt all mining because their licenses have expired.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/DHxlw0lIvbk" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 15:45:22 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/zimbabwean-government-to-control-country-diamond-mining.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/german-man-gets-14-years-for-burning-alive-pregnant-girlfriend.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/zzHffV-OOs4/german-man-gets-14-years-for-burning-alive-pregnant-girlfriend.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;0fae3892-60ed-4a1e-9d21-58488f1059ac&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Europe&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;German man gets 14 years for burning alive pregnant girlfriend&lt;/title&gt;
+         &lt;description&gt;A German man who was apparently fearful of becoming a father has been sentenced to 14 years in prison for burning his pregnant girlfriend alive.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/zzHffV-OOs4" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 15:36:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;FoxNews.com&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/german-man-gets-14-years-for-burning-alive-pregnant-girlfriend.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+      &lt;item&gt;
+         &lt;guid isPermaLink="false"&gt;http://www.foxnews.com/world/2016/02/22/un-chief-in-burundi-to-press-dialogue-as-unrest-persists.html&lt;/guid&gt;
+         &lt;link&gt;http://feeds.foxnews.com/~r/foxnews/world/~3/XfI0-14yFEs/un-chief-in-burundi-to-press-dialogue-as-unrest-persists.html&lt;/link&gt;
+         &lt;category domain="foxnews.com/metadata/dc.identifier"&gt;a3760712-426d-49f9-b6a7-fb3998e6413c&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world/world-regions/africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;fox-news/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD/WORLD REGIONS/Africa&lt;/category&gt;
+         &lt;category domain="foxnews.com/taxonomy"&gt;/FOX NEWS/WORLD&lt;/category&gt;
+         &lt;category domain="foxnews.com/metadata/prism.channel"&gt;fnc&lt;/category&gt;
+         &lt;category domain="foxnews.com/section-path"&gt;fnc/world&lt;/category&gt;
+         &lt;category domain="foxnews.com/content-type"&gt;article&lt;/category&gt;
+         &lt;title&gt;UN chief in Burundi to press dialogue as unrest persists&lt;/title&gt;
+         &lt;description&gt;United Nations Secretary-General Ban Ki-moon is in Burundi to encourage dialogue between the government and its opponents amid violent unrest.&amp;lt;img src="http://feeds.feedburner.com/~r/foxnews/world/~4/XfI0-14yFEs" height="1" width="1" alt=""/&amp;gt;&lt;/description&gt;
+         &lt;pubDate&gt;Mon, 22 Feb 2016 15:16:00 GMT&lt;/pubDate&gt;
+         &lt;category domain="foxnews.com/metadata/dc.source"&gt;Associated Press&lt;/category&gt;
+         &lt;feedburner:origLink&gt;http://www.foxnews.com/world/2016/02/22/un-chief-in-burundi-to-press-dialogue-as-unrest-persists.html&lt;/feedburner:origLink&gt;
+      &lt;/item&gt;
+   &lt;/channel&gt;
+&lt;/rss&gt;
+</outtemplate>
+        <outTemplateHeader>Accept-Ranges: none
+Transfer-Encoding: chunked
+Cache-Control: private, max-age=0
+Server: GSE
+X-Content-Type-Options: nosniff
+Vary: Accept-Encoding
+Last-Modified: Mon, 22 Feb 2016 22:42:14 GMT
+Expires: Mon, 22 Feb 2016 22:43:26 GMT
+X-XSS-Protection: 1; mode=block
+Date: Mon, 22 Feb 2016 22:43:26 GMT
+Content-Type: text/xml; charset=UTF-8
+</outTemplateHeader>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>articulo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//channel</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>titulo</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>item/title</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>articulo</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>descripcion</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>item/description</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>articulo</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue>EEE dd MM yyyy</formatvalue>
+            <id>fecha</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>item/pubDate</source>
+            <srcformatvalue></srcformatvalue>
+            <target>response</target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>articulo</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://feeds.foxnews.com/foxnews/world</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>
