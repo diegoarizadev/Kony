@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="Mapas" name="Mapas">
+    <container isflex="false" displayname="Form" id="frmPrincipal" type="form">
+        <component displayname="Map" id="map20038600442041" type="map">
+            <attributes datatype="string" name="key" platform="general" value="AIzaSyDmiXqnr3JJcZ4IystKQdAImaHMjA9kRmg"/>
+        </component>
+    </container>
+    <globalsequences/>
+    <skins/>
+</application>

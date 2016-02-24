@@ -5,7 +5,7 @@
     <attributes name="SET_WALLPAPER_HINTS" value="false"/>
     <attributes name="cloud_web_xml_custom_listeners" value=""/>
     <attributes name="BIND_REMOTEVIEWS" value="false"/>
-    <attributes name="mapkey" value=""/>
+    <attributes name="mapkey" value="AIzaSyDmiXqnr3JJcZ4IystKQdAImaHMjA9kRmg"/>
     <attributes name="removeprintstatements" value="false"/>
     <attributes name="iphoneloadindicatorkey" value="true"/>
     <attributes name="defaultlocalekey" value=""/>
@@ -40,7 +40,7 @@
     <attributes name="ID_RESOLUTION_WVGA" value="true"/>
     <attributes name="pathprefixkey" value=""/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
-    <attributes name="andapplicationtags" value="&lt;meta-data android:name=&quot;com.google.android.maps.v2.API_KEY&quot; android:value=&quot;AIzaSyDmiXqnr3JJcZ4IystKQdAImaHMjA9kRmg&quot;/&gt; &lt;meta-data android:name=&quot;com.google.android.gms.version&quot; android:value=&quot;@integer/google_play_services_version&quot; /&gt; "/>
+    <attributes name="andapplicationtags" value="&lt;meta-data android:name=&quot;com.google.android.gms.version&quot; android:value=&quot;@integer/google_play_services_version&quot; /&gt;."/>
     <attributes name="RECORD_AUDIO" value="false"/>
     <attributes name="Text_Messaging" value="true"/>
     <attributes name="apmgestureswipe" value="false"/>
@@ -123,6 +123,7 @@
     <attributes name="WP8_ID_CAP_SPEECH_RECOGNITION" value="true"/>
     <attributes name="Server side mobile web" value="false"/>
     <attributes name="secondarytilefunctionkey" value="None"/>
+    <attributes name="startupformkey" value="frmPrincipal"/>
     <attributes name="Internet(Client_AND_Server)" value="true"/>
     <attributes name="CAMERA" value="false"/>
     <attributes name="ID_CAP_CONTACTS" value="true"/>
@@ -241,7 +242,7 @@
     <attributes name="bb10urlscheme" value=""/>
     <attributes name="apppackagekey" value="com.n0rf3n.Mapas"/>
     <attributes name="watchenabled" value="false"/>
-    <attributes name="andtargetsdkkey" value="2.3.3"/>
+    <attributes name="andtargetsdkkey" value="4.0.3"/>
     <attributes name="wp81sdescriptionkey" value="Sample Test Application"/>
     <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="appversionkey" value="1.0.0"/>
@@ -271,7 +272,7 @@
     <attributes name="SIGNAL_PERSISTENT_PROCESSES" value="false"/>
     <attributes name="desktopwebbasefontsize" value="16"/>
     <attributes name="REORDER_TASKS" value="false"/>
-    <attributes name="andminsdkkey" value="2.3"/>
+    <attributes name="andminsdkkey" value="2.3.3"/>
     <attributes name="Proximity" value="true"/>
     <attributes name="androidscreenresizeable" value="false"/>
     <attributes name="GET_ACCOUNTS" value="false"/>
@@ -332,7 +333,7 @@
     <attributes name="tcandroid480basefontsize" value="16"/>
     <attributes name="WRITE_SETTINGS" value="false"/>
     <attributes name="statusBarHidden" value="false"/>
-    <attributes name="andmaxsdkkey" value="None"/>
+    <attributes name="andmaxsdkkey" value="5.0"/>
     <attributes name="tcnth240basefontsize" value="12"/>
     <attributes name="thinwebcontextkey" value=""/>
     <attributes name="access_sms_mms" value="false"/>
