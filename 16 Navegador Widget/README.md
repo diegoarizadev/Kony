@@ -1,4 +1,4 @@
-# Kony - Navegador Wibget
+# Kony - Navegador Widget
 
 App
 
