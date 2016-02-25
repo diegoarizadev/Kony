@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<application id="i18n" name="i18n">
+    <container isflex="false" displayname="Form" id="frmPrincipal" type="form"/>
+    <container isflex="false" displayname="Form" id="frmDiccionario" type="form"/>
+    <globalsequences/>
+    <skins/>
+</application>
